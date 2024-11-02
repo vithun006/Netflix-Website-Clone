@@ -1,0 +1,89 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 148px;
+    padding-right: 148px;
+    padding-top: 24px;
+    margin: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+
+
+}
+
+.netfix-logo{
+    width: 148px;
+    height: 40px;
+    fill: red;
+}
+
+header div.right-section svg{
+    height: 15px;
+    fill: #fff;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 3px;
+    margin-right: 0;
+}
+.select{
+    background: transparent;
+    color: white;
+    padding: 7px 17px;
+    border-radius: 6px;
+    position: relative;
+    border: 1px solid white;
+}
+select option{
+    color: black;
+}
+.sign-out{
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 7px 17px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+.right-section a{
+    color: white;
+    text-decoration: none;
+}
+.sign-out:hover{
+    background-color: rgb(203, 59, 59);
+    transition: 0.5s;
+}
+
+@media(min-width: 960px) and (max-width: 1279.99px){
+    .header{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+}
+@media(min-width: 518px) and (max-width: 959px){
+    .header{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .netfix-logo{
+        width: 88.8px;
+        height: 24px;
+    }
+}
+@media(max-width: 600px){
+    .header{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .netfix-logo{
+        width: 89px;
+        height: 24px;
+    }
+}
